@@ -1,9 +1,9 @@
-# cs5293sp19-project0
+# Text Analysis of Norman Police Database
 
 In this project a PDF file is downloaded from the Norman Police Deparatment and the data regarding the arrests is inserted into a SQLite database named 'normanpd.db'. The downloaded PDF file contains the regular arrest reports in the Norman area. The PDF file is cleaned using python and the data is formatted into the form of rows. A random row can be retrieved from the database after inserting the rows into the database. The project is compatible with Python 3.7.2.
 
 ### main.py
-The main.py file is executed from the *cs5293sp19-project0* folder after cloning it into the local system using the following command
+The main.py file is executed from the *text_analysis_of_police_database* folder after cloning it into the local system using the following command
 
 `pipenv run python project0/main.py --arrests url`
 
